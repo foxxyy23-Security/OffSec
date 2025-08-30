@@ -6,6 +6,13 @@ foxxyy26@htb[/htb]$ curl -s https://crt.sh/\?q\=inlanefreight.com\&output\=json 
 sorting list m
 for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreight.com | cut -d" " -f1,4;done
 
+### subdomains
+sublist3r -d tesla.com
+
+owasp amass
+
+tomnomnom 
+
 
 ### pull dns records 
  dig any inlanefreight.com
@@ -21,6 +28,15 @@ for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreig
 - phonebook.cz
 - Clear it
 - google search
+
+### getting passwords
+Dehashed.com
+
+- common password 
+seasons 
+company names
+street namws 
+nearby sports teams 
 
 ### other 
 - github 
