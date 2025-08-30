@@ -16,6 +16,11 @@ for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreig
 - linkedin 
 - X
 
+### getting email addresses
+- hunter.io
+- phonebook.cz
+- Clear it
+- google search
 
 ### other 
 - github 
