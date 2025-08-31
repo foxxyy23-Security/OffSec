@@ -3,33 +3,36 @@ who are we? what permissions do we have? what can we do
 whoami
 ID
 ```
-![[Pasted image 20240330135142.png]]
+## sudo permissions
 ```
 sudo -l
 ```
-
-![[Pasted image 20240330135224.png]]
+## file that stores hashes
 ```
 cat /etc/passwd
 ```
-![[Pasted image 20240330135302.png]]
+## File that stores passwrods
 ```
 /etc/shadow
 ```
-![[Pasted image 20240330135417.png]]
+## history of all commands ran in bash
 ```
 history
 ```
-![[Pasted image 20240330135444.png]]
+## login to sudo account
 ```
 sudo su -
 ```
-try and login to root account with user password
+## find group ID
 ```
 find / -group <group> 2>/dev/null
 ```
-	find anything with that group name in the entire direcory
+find anything with that group name in the entire direcory
+## permissions of a file
+```
 ls -la <file/path>
-	permissions of a file
+```
+## file type
+```
 file <file/path>
-	What file type is it how does it work
+```
