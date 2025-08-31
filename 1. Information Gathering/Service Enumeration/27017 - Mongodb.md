@@ -1,6 +1,6 @@
 Downloading mongodb utility
 ```
-	curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.7.tgz
+curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.7.tgz
 ```
 extract it 
 ```
