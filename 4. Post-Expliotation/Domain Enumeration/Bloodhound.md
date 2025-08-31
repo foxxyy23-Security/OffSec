@@ -33,5 +33,5 @@ injester
 		-c (what are we collecting) All
 	ex
 ```
-sudo bloodhound-python -d Marvel.local -u tstark -p Password1 -ns 192.168.88.100 -c All
+sudo bloodhound-python -d <domain> -u <user> -p <pass> -ns $target -c All
 ```
