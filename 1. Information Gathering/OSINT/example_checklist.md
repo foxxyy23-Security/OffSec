@@ -1,1 +1,15 @@
-
+### example checklist
+  - Ensure ROE is signed by client
+  - add IPs to scope
+  - verify scope
+  - send kickoff email to client
+  - conduct vulnerability scanning with Nessus
+  - identify emails/users/pass in breached databases
+  - identify client websites and search for any data useful to help attack
+  - attempt to enumerate any accounts on portals, password reset functions
+  - run web app scans, if necessary
+  - conduct manual testing and exploitation on targets
+  - validate scanning tool vulnerabilities 
+  - conduct password spraying guessing and brute force no login portals
+  - escalate access from external to internal
+  - validate previous findings from last year have been resolved
