@@ -4,11 +4,11 @@ mount -t nfs 172.30.217.107:/srv/nfs /mnt/dev
 ```
 
 ## view shares
+- to view the shares
+
 ```
 showmount -e $target
 ```
-
-	to view the shares
 
 ## one liner
 ```
