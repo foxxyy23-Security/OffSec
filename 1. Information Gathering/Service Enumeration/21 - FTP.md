@@ -24,4 +24,6 @@ ftp $target <port>
 
 ### downloading all files
 - if you have creds, use following wget command to dump all files in the share
+```
 wget -m --no-passive ftp://anonymous:anonymous@$target
+```
