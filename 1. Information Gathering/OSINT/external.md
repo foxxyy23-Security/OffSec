@@ -32,6 +32,11 @@ DNS Record Enumeration: Query DNS for important records. For example, use dig or
 ```
 nslookup
 ```
+### the harvester
+```
+theHarvester -d example.com -b google
+```
+
 ### people
 - public reords 
 - job postings 
@@ -66,3 +71,10 @@ subtract things
 search for a file?
 filetype: pdf, csv, docx etc
 
+
+### confirming valid accounts
+```
+MailSniper
+
+AADInternals
+```
